@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\sorge\VisualStudioProjects\functionalList\out\build\x64-Debug\tests\FListTestRun.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="FListTest.operatorEql" Duration="1" />
+    <TestDuration Test="FListTest.operatorAffectation" Duration="1" />
+    <TestDuration Test="FListTest.head" Duration="1" />
+    <TestDuration Test="FListTest.tail" Duration="1" />
+    <TestDuration Test="FListTest.fetch" Duration="1" />
+    <TestDuration Test="FListTest.map" Duration="1" />
+    <TestDuration Test="FListTest.foldLeft" Duration="1" />
+    <TestDuration Test="FListTest.foldRight" Duration="1" />
+    <TestDuration Test="FListTest.flatMap" Duration="1" />
+    <TestDuration Test="FListTest.filter" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="functionnalListCPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;CMake Files\src\;CMake Files\spdlog\;CMake Files\spdlog\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functionnalListCPP">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/functionnalListCPP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 functionnalListCPP"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functionnalListCPP/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/functionnalListCPP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 functionnalListCPP/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FListLib">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/src/FListLib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 FListLib"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FListLib/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/src/FListLib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 FListLib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/spdlog/spdlogd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/spdlog"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/spdlog"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 spdlog"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/spdlog/spdlogd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/spdlog"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/spdlog"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 spdlog/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gmock_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 gmock_main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gmock_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gmockd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 gmock"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gmockd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 gmock/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googlemock\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gtestd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 gtest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gtestd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 gtest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gtest_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 gtest_main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/lib/gtest_maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\Google_tests\lib\googletest\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FListTestRun">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/tests/FListTestRun.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/tests"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/tests"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/tests/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 FListTestRun"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FListTestRun/fast">
+				<Option output="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/tests/FListTestRun.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/cmake-build-debug/tests"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/tests"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/tests/src"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/include"/>
+					<Add directory="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 FListTestRun/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\CLionProjects\functionnalListCPP\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/main.cpp">
+			<Option target="functionnalListCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/async.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/async_logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/async_logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/common-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/common.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/backtracer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/backtracer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/circular_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/console_globals.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/file_helper-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/file_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/fmt_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/log_msg-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/log_msg.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/log_msg_buffer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/log_msg_buffer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/mpmc_blocking_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/null_mutex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/os-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/periodic_worker-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/periodic_worker.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/registry-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/registry.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/synchronous_factory.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/tcp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/tcp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/thread_pool-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/thread_pool.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/details/windows_include.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bin_to_hex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/color.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/core.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/format-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/format.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/locale.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/ostream.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/posix.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/printf.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/bundled/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/fmt.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fmt/ostr.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/fwd.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/pattern_formatter-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/pattern_formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/android_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/ansicolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/base_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/base_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/basic_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/basic_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/daily_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/dist_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/dup_filter_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/hourly_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/msvc_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/null_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/ostream_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/ringbuffer_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/rotating_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/stdout_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/stdout_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/syslog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/systemd_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/tcp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/win_eventlog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/wincolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/sinks/wincolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/spdlog-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/spdlog.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/stopwatch.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/tweakme.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/include/spdlog/version.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/async.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/cfg.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/color_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/file_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/fmt.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/spdlog.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/src/stdout_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/src/FList.cpp">
+			<Option target="FListLib"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/src/include/FList.h">
+			<Option target="FListLib"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/src/include/FList.tpp">
+			<Option target="FListLib"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/tests/FListTest.cpp">
+			<Option target="FListTestRun"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/Google_tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\spdlog\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/sorge/CLionProjects/functionnalListCPP/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
